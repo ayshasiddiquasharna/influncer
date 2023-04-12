@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f1;
+}
+.header{
+    
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+}
+.navbar {
+ display: flex;
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    position: relative;
+
+}
+.navbar li a{
+    display: block;
+    color: rgb(14, 12, 12);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: o.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin:20px 50px;
+}
+ .booking-content {
+    display: block;
+    margin: 40px 0;
+    padding: 80px 0;
+    width: 50%;
+}
+.booking-content h1 {
+    font-size: 70px;
+    font-family: arial;
+    color: black;
+}
+.booking-content p {
+    color: black;
+    font-size: 25px;
+    font-family: arial;
+}
+.booking-content button{
+    background-color: deeppink;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    border-color: deeppink;
+}
+.product{
+width: 50%;
+text-align: center;
+margin-top: 50px;
+}
+.product img {
+    border: 1px solid rgba(52, 51, 51, 0.1);
+    border-radius: 50%;
+    padding: 20px;
+}
+.websites{
+    margin: 50px;
+}
+hr {
+    margin: 30px 0;
+    height: 1px;
+    border: none;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, rgb(192, 191, 191)));
+}
+.web-logos{
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+   grid-row-gap: 5px;
+    align-items: center;
+    justify-items: center;
+}
+.web-logos img{
+    height: 100px;
+    width: 100px;
+}
+.detail-container {
+    margin: 50px;
+    padding: 50px;
+}
+.detail{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+ .detail-container .collections {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-column-gap: 30px;
+    padding: 20px;
+    margin: 30px;
+    grid-row-gap: 30px;
+
+}
+
+.collection-product{
+    box-shadow: 10px 10px 20px rgb(196, 197, 196);
+    width: 300px;
+    height: 500px
+    margin: 10px;
+}
+.collection-product .product-banner img{
+    height: 300px;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.product-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #1E1E1E;
+    padding: 10px;
+}
+
+.product-rate{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #797676;
+    padding: 10px;
+}
+.fa-star{
+    font-size: 12px;
+    padding: 10px;
+}
+.fa-star.filled{
+    color:#FFC014 ;
+}
+.fa-star.empty{
+    color:#AEAEAE ;
+}
+.delivery-info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #706e6e;
+    padding: 10px;
+}
+.more-action{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: deeppink;
+    text-align: right;
+    margin-right: 135px;
+    padding: 20px;
+}
+.featured-products {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 50px;
+}
+.featured-image {
+    height: 100%;
+    width: 50%;
+}
+.featured-detail {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 30px;
+    padding: 30px;
+}
+.headline {
+    font-size: 40px;
+    color: black;
+}
+.feature-info {
+    font-size: 20px;
+    color: #484545;
+}
+.featured-detail button {
+    background-color: deeppink;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    border-color: deeppink;
+}
+.footer-info {
+    text-align: center;
+    background-color: #521987;
+    font-family: arial;
+}
+footer {
+    padding: 10px;
+    margin: 10px;
+}
+.footer-header{
+    font-size: 20px;
+    color:#f3efef;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.footer-info p {
+    font-size: 20px;
+    color: rgb(255, 254, 254);
+    font-family: arial;
+}
+.footer-icon .fa-brands{
+    color: #f3f3f1;
+    font-size: 30px;
+    margin: 20px 10px;
+}
